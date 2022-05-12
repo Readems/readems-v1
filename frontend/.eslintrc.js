@@ -15,10 +15,15 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    quotes: ['error', 'single'],
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
     'react/function-component-definition': 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-named-as-default': 'off',
   },
 };
