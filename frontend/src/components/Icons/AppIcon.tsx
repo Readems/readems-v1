@@ -1,5 +1,7 @@
-import { RiMenu2Fill } from 'react-icons/ri';
+import { RiCloseFill, RiMenuFill, RiSearchLine } from 'react-icons/ri';
 
 export default {
-  Menu: RiMenu2Fill,
+  Menu: RiMenuFill,
+  Close: RiCloseFill,
+  Search: RiSearchLine,
 };

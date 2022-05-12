@@ -32,6 +32,7 @@ export const StyledHeaderLeft = styled.div`
     align-items: center;
     font-size: 35px;
     display: none;
+    cursor: pointer;
   }
 
   @media (max-width: 420px) {
