@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     max-width: 2000px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: Georgia, 'Times New Roman', Times, serif
   }
 
