@@ -13,7 +13,8 @@ export const StyledSidebarWrapper = styled(motion.div)`
   overflow-y: scroll;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  box-shadow: 0px 0px 8px rgb(255, 0, 0);
+  /* box-shadow: 0px 0px 8px rgb(255, 0, 0); */
+  box-shadow: 0px 0px 5px gray;
 
   ::-webkit-scrollbar {
     display: none;
